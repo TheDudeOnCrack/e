@@ -1,4 +1,5 @@
---ProScript
+-- Gui to Lua
+-- Version: 3.2
 
 -- Instances:
 
@@ -107,7 +108,6 @@ Main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Main.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Main.Position = UDim2.new(0.185218975, 0, 0.113851994, 0)
 Main.Size = UDim2.new(0.62956202, 0, 0.772296011, 0)
-Main.Visible = false
 
 UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(7, 7, 7)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(0, 0, 0))}
 UIGradient.Rotation = -90
@@ -566,7 +566,6 @@ Button.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Button.BorderColor3 = Color3.fromRGB(255, 255, 255)
 Button.Position = UDim2.new(0.185218975, 0, 0.113851994, 0)
 Button.Size = UDim2.new(0.162408754, 0, 0.772296011, 0)
-Button.Visible = false
 Button.ZIndex = 10
 
 UIGradient_10.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(191, 191, 191)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
@@ -896,7 +895,7 @@ Description_2.TextSize = 10.000
 
 -- Scripts:
 
-local function JHJWB_fake_script() -- PlayerName.LocalScript 
+local function TASI_fake_script() -- PlayerName.LocalScript 
 	local script = Instance.new('LocalScript', PlayerName)
 
 	local Text = script.Parent
@@ -904,8 +903,8 @@ local function JHJWB_fake_script() -- PlayerName.LocalScript
 	
 	Text.Text = Play.Name
 end
-coroutine.wrap(JHJWB_fake_script)()
-local function FSJR_fake_script() -- PlayerRank.LocalScript 
+coroutine.wrap(TASI_fake_script)()
+local function HSFP_fake_script() -- PlayerRank.LocalScript 
 	local script = Instance.new('LocalScript', PlayerRank)
 
 	local Text = script.Parent
@@ -928,8 +927,8 @@ local function FSJR_fake_script() -- PlayerRank.LocalScript
 		Text.Text = "NORMAL USER"
 	end
 end
-coroutine.wrap(FSJR_fake_script)()
-local function RKNZ_fake_script() -- Menu.LocalScript 
+coroutine.wrap(HSFP_fake_script)()
+local function CEICBU_fake_script() -- Menu.LocalScript 
 	local script = Instance.new('LocalScript', Menu)
 
 	local Play = game.Players.LocalPlayer
@@ -940,48 +939,48 @@ local function RKNZ_fake_script() -- Menu.LocalScript
 		Play:Kick("Loser")
 	end
 end
-coroutine.wrap(RKNZ_fake_script)()
-local function OBUB_fake_script() -- DarkHub.LocalScript 
+coroutine.wrap(CEICBU_fake_script)()
+local function JYAGBDS_fake_script() -- DarkHub.LocalScript 
 	local script = Instance.new('LocalScript', DarkHub)
 
 	DarkHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RandomAdamYT/DarkHub/master/Init", true))()
 	end)
 end
-coroutine.wrap(OBUB_fake_script)()
-local function EDST_fake_script() -- DeniroHub.LocalScript 
+coroutine.wrap(JYAGBDS_fake_script)()
+local function SFPJ_fake_script() -- DeniroHub.LocalScript 
 	local script = Instance.new('LocalScript', DeniroHub)
 
 	DeniroHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/QieQmp/DeniroHubV3/main/Deniro%20Hub", true))()
 	end)
 end
-coroutine.wrap(EDST_fake_script)()
-local function WNTLRLS_fake_script() -- NullWare.NullWare 
+coroutine.wrap(SFPJ_fake_script)()
+local function SIMSI_fake_script() -- NullWare.NullWare 
 	local script = Instance.new('LocalScript', NullWare)
 
 	NullWare.MouseButton1Down:connect(function()
 		loadstring(game:HttpGetAsync("https://gist.githubusercontent.com/M6HqVBcddw2qaN4s/dabc2500988785fbec1ce7c7aaee105d/raw/hVQJXfF4sR6yqSfJ"))()
 	end)
 end
-coroutine.wrap(WNTLRLS_fake_script)()
-local function IIMCKED_fake_script() -- OwlHub.LocalScript 
+coroutine.wrap(SIMSI_fake_script)()
+local function ZLOMF_fake_script() -- OwlHub.LocalScript 
 	local script = Instance.new('LocalScript', OwlHub)
 
 	OwlHub.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/ZinityDrops/OwlHubLink/master/OwlHubBack.lua"))();
 	end)
 end
-coroutine.wrap(IIMCKED_fake_script)()
-local function SQMZF_fake_script() -- TextButton.LocalScript 
+coroutine.wrap(ZLOMF_fake_script)()
+local function NHYLGGV_fake_script() -- TextButton.LocalScript 
 	local script = Instance.new('LocalScript', TextButton)
 
 	.MouseButton1Down:connect(function()
 		
 	end)
 end
-coroutine.wrap(SQMZF_fake_script)()
-local function AAKEEYS_fake_script() -- Gamepass.LocalScript 
+coroutine.wrap(NHYLGGV_fake_script)()
+local function SVCNZ_fake_script() -- Gamepass.LocalScript 
 	local script = Instance.new('LocalScript', Gamepass)
 
 	Gamepass.MouseButton1Down:connect(function()
@@ -993,8 +992,8 @@ local function AAKEEYS_fake_script() -- Gamepass.LocalScript
 		end
 	end)
 end
-coroutine.wrap(AAKEEYS_fake_script)()
-local function SGAIYUZ_fake_script() -- SimpleSpy.LocalScript 
+coroutine.wrap(SVCNZ_fake_script)()
+local function PFNINVU_fake_script() -- SimpleSpy.LocalScript 
 	local script = Instance.new('LocalScript', SimpleSpy)
 
 	SimpleSpy.MouseButton1Down:connect(function()
@@ -3165,32 +3164,32 @@ local function SGAIYUZ_fake_script() -- SimpleSpy.LocalScript
 		)
 	end)
 end
-coroutine.wrap(SGAIYUZ_fake_script)()
-local function ZIBTV_fake_script() -- TextButton_2.LocalScript 
+coroutine.wrap(PFNINVU_fake_script)()
+local function WHRB_fake_script() -- TextButton_2.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_2)
 
 	.MouseButton1Down:connect(function()
 		
 	end)
 end
-coroutine.wrap(ZIBTV_fake_script)()
-local function MUZSBT_fake_script() -- backdoor.LocalScript 
+coroutine.wrap(WHRB_fake_script)()
+local function DGWCN_fake_script() -- backdoor.LocalScript 
 	local script = Instance.new('LocalScript', backdoor)
 
 	backdoor.MouseButton1Down:connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/iK4oS/backdoor.exe/master/source.lua"))()
 	end)
 end
-coroutine.wrap(MUZSBT_fake_script)()
-local function HUSXY_fake_script() -- TextButton_3.LocalScript 
+coroutine.wrap(DGWCN_fake_script)()
+local function RFXSIBI_fake_script() -- TextButton_3.LocalScript 
 	local script = Instance.new('LocalScript', TextButton_3)
 
 	.MouseButton1Down:connect(function()
 		
 	end)
 end
-coroutine.wrap(HUSXY_fake_script)()
-local function LDPR_fake_script() -- FeResizel.LocalScript 
+coroutine.wrap(RFXSIBI_fake_script)()
+local function JTPXOY_fake_script() -- FeResizel.LocalScript 
 	local script = Instance.new('LocalScript', FeResizel)
 
 	FeResize.MouseButton1Down:connect(function()
@@ -3239,16 +3238,16 @@ local function LDPR_fake_script() -- FeResizel.LocalScript
 		wait(1)
 	end)
 end
-coroutine.wrap(LDPR_fake_script)()
-local function WVULH_fake_script() -- FeChat.LocalScript 
+coroutine.wrap(JTPXOY_fake_script)()
+local function PARY_fake_script() -- FeChat.LocalScript 
 	local script = Instance.new('LocalScript', FeChat)
 
 	FeChat.MouseButton1Down:connect(function()
 		loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/TheDudeOnCrack/rewr234dfswerwer3/main/rwere324"))()
 	end)
 end
-coroutine.wrap(WVULH_fake_script)()
-local function MFCGAK_fake_script() -- Button.Buttons script 
+coroutine.wrap(PARY_fake_script)()
+local function RMPX_fake_script() -- Button.Buttons script 
 	local script = Instance.new('LocalScript', Button)
 
 	--Buttons
@@ -3446,8 +3445,8 @@ local function MFCGAK_fake_script() -- Button.Buttons script
 		Scripts.Visible = true
 	end)
 end
-coroutine.wrap(MFCGAK_fake_script)()
-local function LJQO_fake_script() -- Button.Exit Script 
+coroutine.wrap(RMPX_fake_script)()
+local function FMCXGNR_fake_script() -- Button.Exit Script 
 	local script = Instance.new('LocalScript', Button)
 
 	--Buttons
@@ -3497,4 +3496,4 @@ local function LJQO_fake_script() -- Button.Exit Script
 	end)
 	
 end
-coroutine.wrap(LJQO_fake_script)()
+coroutine.wrap(FMCXGNR_fake_script)()
